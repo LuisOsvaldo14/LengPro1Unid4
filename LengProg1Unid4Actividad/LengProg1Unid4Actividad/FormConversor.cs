@@ -21,5 +21,23 @@ namespace LengProg1Unid4Actividad
         {
 
         }
+
+        private void textBox2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (comboBox1. = "Peso dominicano")
+            {
+
+            }
+        }
     }
 }
