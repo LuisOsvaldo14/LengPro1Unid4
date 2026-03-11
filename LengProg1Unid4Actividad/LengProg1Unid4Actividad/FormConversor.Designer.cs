@@ -58,7 +58,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(160, 20);
             this.textBox2.TabIndex = 2;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_1);
             // 
             // comboBox1
             // 
@@ -121,7 +120,6 @@
             this.label3.Size = new System.Drawing.Size(19, 19);
             this.label3.TabIndex = 8;
             this.label3.Text = "=";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // FormConversor
             // 

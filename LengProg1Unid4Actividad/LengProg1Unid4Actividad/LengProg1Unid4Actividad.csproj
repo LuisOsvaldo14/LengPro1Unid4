@@ -81,6 +81,9 @@
     <EmbeddedResource Include="FormFibonacci.resx">
       <DependentUpon>FormFibonacci.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistro.resx">
+      <DependentUpon>FormRegistro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

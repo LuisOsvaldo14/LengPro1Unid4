@@ -31,5 +31,12 @@ namespace LengProg1Unid4Actividad
             hijoConversor.Show();
 
         }
+
+        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormRegistro hijoRegistro = new FormRegistro();
+            hijoRegistro.MdiParent = this;
+            hijoRegistro.Show();
+        }
     }
 }

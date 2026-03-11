@@ -16,5 +16,34 @@ namespace LengProg1Unid4Actividad
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add(
+                textBox1.Text, 
+                textBox2.Text, 
+                textBox3.Text, 
+                comboBox1.Text, 
+                textBox4.Text,
+                textBox5.Text,
+                comboBox2.Text,
+                textBox6.Text,
+                textBox7.Text,
+                comboBox3.Text,
+                textBox8.Text,
+                textBox9.Text
+                );
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear(); textBox2.Clear(); textBox3.Clear(); 
+            textBox4.Clear(); textBox5.Clear(); textBox6.Clear();
+            textBox7.Clear(); textBox8.Clear(); textBox9.Clear();
+
+            comboBox1.SelectedIndex = -1; comboBox2.SelectedIndex = -1; 
+            comboBox3.SelectedIndex = -1;
+        }
     }
 }
