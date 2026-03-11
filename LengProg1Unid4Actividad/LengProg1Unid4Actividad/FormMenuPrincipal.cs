@@ -10,20 +10,14 @@ using System.Windows.Forms;
 
 namespace LengProg1Unid4Actividad
 {
-    public partial class Form1 : Form
+    public partial class FormMenuPrincipal : Form
     {
-        public Form1()
+        public FormMenuPrincipal()
         {
             InitializeComponent();
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            FormMenuPrincipal hijoprincipal = new FormMenuPrincipal();
-            hijoprincipal.MdiParent = this;
-            hijoprincipal.Show();
-        }
 
-        private void caculadorFibonacciToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             FormFibonacci hijoFibonacci = new FormFibonacci();
             hijoFibonacci.MdiParent = this;
@@ -31,7 +25,7 @@ namespace LengProg1Unid4Actividad
             hijoFibonacci.Show();
         }
 
-        private void conversorDivisasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             FormConversor hijoConversor = new FormConversor();
             hijoConversor.MdiParent = this;
@@ -40,25 +34,12 @@ namespace LengProg1Unid4Actividad
 
         }
 
-        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             FormRegistro hijoRegistro = new FormRegistro();
             hijoRegistro.MdiParent = this;
             hijoRegistro.Dock = DockStyle.Fill;
             hijoRegistro.Show();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            FormMenuPrincipal hijoprincipal = new FormMenuPrincipal();
-            hijoprincipal.MdiParent = this;
-            hijoprincipal.Show();
-
         }
     }
 }
