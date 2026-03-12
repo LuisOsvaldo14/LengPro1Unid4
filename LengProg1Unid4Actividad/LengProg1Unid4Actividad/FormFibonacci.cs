@@ -36,30 +36,13 @@ namespace LengProg1Unid4Actividad
 
 
         }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
+            FormMenuPrincipal hijoprincipal = new FormMenuPrincipal();
+            hijoprincipal.MdiParent = this.MdiParent;
+            hijoprincipal.Dock = DockStyle.Fill;
+            hijoprincipal.Show();
+            this.Close();
         }
     }
 }

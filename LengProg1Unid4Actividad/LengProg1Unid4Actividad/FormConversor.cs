@@ -54,15 +54,13 @@ namespace LengProg1Unid4Actividad
                 textBox2.Text = (Cambio_A_Dollar).ToString("N2", CultureInfo.InvariantCulture);
             }
         }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void FormConversor_Load(object sender, EventArgs e)
-        {
-
+            FormMenuPrincipal hijoprincipal = new FormMenuPrincipal();
+            hijoprincipal.MdiParent = this.MdiParent;
+            hijoprincipal.Dock = DockStyle.Fill;
+            hijoprincipal.Show();
+            this.Close();
         }
     }
 }

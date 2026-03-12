@@ -16,47 +16,13 @@ namespace LengProg1Unid4Actividad
         {
             InitializeComponent();
         }
-        private void Form1_Load(object sender, EventArgs e)
+        
+
+        private void Form1_Load_1(object sender, EventArgs e)
         {
             FormMenuPrincipal hijoprincipal = new FormMenuPrincipal();
             hijoprincipal.MdiParent = this;
-            hijoprincipal.Show();
-        }
-
-        private void caculadorFibonacciToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormFibonacci hijoFibonacci = new FormFibonacci();
-            hijoFibonacci.MdiParent = this;
-            hijoFibonacci.Dock = DockStyle.Fill;
-            hijoFibonacci.Show();
-        }
-
-        private void conversorDivisasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormConversor hijoConversor = new FormConversor();
-            hijoConversor.MdiParent = this;
-            hijoConversor.Dock = DockStyle.Fill;
-            hijoConversor.Show();
-
-        }
-
-        private void registroToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormRegistro hijoRegistro = new FormRegistro();
-            hijoRegistro.MdiParent = this;
-            hijoRegistro.Dock = DockStyle.Fill;
-            hijoRegistro.Show();
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            FormMenuPrincipal hijoprincipal = new FormMenuPrincipal();
-            hijoprincipal.MdiParent = this;
+            hijoprincipal.Dock = DockStyle.Fill;
             hijoprincipal.Show();
 
         }

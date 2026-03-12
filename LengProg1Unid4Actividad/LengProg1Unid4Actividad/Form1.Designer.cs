@@ -29,81 +29,23 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.conversorDivisasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.caculadorFibonacciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.registroToolStripMenuItem,
-            this.conversorDivisasToolStripMenuItem,
-            this.caculadorFibonacciToolStripMenuItem});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(50, 20);
-            this.toolStripMenuItem1.Text = "Menu";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // registroToolStripMenuItem
-            // 
-            this.registroToolStripMenuItem.Name = "registroToolStripMenuItem";
-            this.registroToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.registroToolStripMenuItem.Text = "Registro";
-            this.registroToolStripMenuItem.Click += new System.EventHandler(this.registroToolStripMenuItem_Click);
-            // 
-            // conversorDivisasToolStripMenuItem
-            // 
-            this.conversorDivisasToolStripMenuItem.Name = "conversorDivisasToolStripMenuItem";
-            this.conversorDivisasToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.conversorDivisasToolStripMenuItem.Text = "Conversor divisas";
-            this.conversorDivisasToolStripMenuItem.Click += new System.EventHandler(this.conversorDivisasToolStripMenuItem_Click);
-            // 
-            // caculadorFibonacciToolStripMenuItem
-            // 
-            this.caculadorFibonacciToolStripMenuItem.Name = "caculadorFibonacciToolStripMenuItem";
-            this.caculadorFibonacciToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.caculadorFibonacciToolStripMenuItem.Text = "Caculador Fibonacci";
-            this.caculadorFibonacciToolStripMenuItem.Click += new System.EventHandler(this.caculadorFibonacciToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.menuStrip1);
+            this.ClientSize = new System.Drawing.Size(1172, 794);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem registroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem conversorDivisasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem caculadorFibonacciToolStripMenuItem;
     }
 }
 

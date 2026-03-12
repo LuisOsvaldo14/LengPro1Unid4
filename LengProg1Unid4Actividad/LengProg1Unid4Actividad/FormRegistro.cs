@@ -46,34 +46,14 @@ namespace LengProg1Unid4Actividad
             comboBox3.SelectedIndex = -1;
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+
+        private void button3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void FormRegistro_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox6_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
+            FormMenuPrincipal hijoprincipal = new FormMenuPrincipal();
+            hijoprincipal.MdiParent = this.MdiParent;
+            hijoprincipal.Dock = DockStyle.Fill;
+            hijoprincipal.Show();
+            this.Close();
         }
     }
 }
