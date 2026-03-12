@@ -39,7 +39,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Multisoluciones";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
 

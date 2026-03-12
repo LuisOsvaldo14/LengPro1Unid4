@@ -45,7 +45,7 @@ namespace LengProg1Unid4Actividad
             this.Close();
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
